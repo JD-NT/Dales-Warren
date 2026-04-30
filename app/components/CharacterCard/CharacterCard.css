@@ -67,7 +67,7 @@
     font-family: Onder;
     font-size: clamp(1vw, 2rem, 2rem);
     font-size: max(2rem);
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 .character-details h4 small{

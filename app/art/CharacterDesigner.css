@@ -24,11 +24,15 @@
     justify-content: space-between;
 }
 
-.additional-content small{
+.additional-content > span{
     width: 20%;
+    background-color: var(--color-darkblue-50);
     padding: 1em 0;
-    opacity: 50%;
 }
+
+.additional-content span:last-child{ background-color: transparent;}
+
+.additional-content small{ opacity: 50%; }
 
 .intro-content2 {
     grid-column: span 5 / span 5;

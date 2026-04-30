@@ -46,19 +46,19 @@ html {
 
 a{cursor: pointer;}
 
-h1,h2,h3,h4,h5,h6 { font-family: a4b03; line-height: 1;}
+h1,h2,h3,h4,h5,h6 { font-family: a4b03; line-height: 1; overflow: hidden;}
 
-h1{ font-size: clamp(5rem, 6rem, 7vw); line-height: 0.8;}
+h1{ font-size: 6rem; line-height: 0.8;}
 
-h2{ font-size: clamp(4rem, 5rem, 6vw);}
+h2{ font-size: 5.625rem;}
 
-h3{ font-size: clamp(2.75rem, 4rem, 5vw);}
+h3{ font-size: 4.2rem;}
 
-h4{ font-size: clamp(2.50rem, 3rem, 4vw);}
+h4{ font-size: 3.15rem;}
 
-h5{ font-size: clamp(2rem, 2rem, 3vw);}
+h5{ font-size: 2.35rem;}
 
-h6{ font-size: clamp(1.25rem, 1.50rem, 2.5vw);}
+h6{ font-size: 1.35rem;}
 
 small{ color: var(--color-white-100); font-size: clamp(0.5rem, 0.75rem, 1rem); letter-spacing: 0.15em; text-transform: uppercase;}
 
@@ -94,10 +94,9 @@ hr{ margin-block: 0.5em; color: var(--color-white-100);}
 
 .social-link{
     display: flex;
-    flex-direction: row;
     align-content: center;
     height: 16px;
-    aspect-ratio: 1 / 1;
+    width: fit-content;
     margin: 0.5em;
     gap: 0.5em;
 }

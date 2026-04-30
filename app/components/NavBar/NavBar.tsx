@@ -11,7 +11,7 @@ export default function NavBar() {
 
     return (
     <>
-    <header className={`${isOpen ? 'show' : ''}`} /* isOpen is the state that the header is cuurently in and if setIsOpen is true it adds the 'show' class, otherwise it's blank*/ > 
+    <header className={`${isOpen ? 'show no-doc-scroll' : ''}`} /* isOpen is the state that the header is cuurently in and if setIsOpen is true it adds the 'show' class, otherwise it's blank*/ > 
     <Link href='/art' className='logo'>Dale ₍ᐢ. .ᐢ₎</Link>
     <nav>
         <ul className='nav_links' onClick={closeSidebar}>

@@ -1,10 +1,10 @@
 import CharacterCard from '@/app/components/CharacterCard/CharacterCard'
 import './CharacterShowcase.css'
-import Link from 'next/link'
 import Image from 'next/image'
 
 function CharacterShowcase() { 
     return (
+
         <>
         <section className='layout-case'>
             <div className='mobile-hidden'>
@@ -18,8 +18,10 @@ function CharacterShowcase() {
 
             <hr />
 
+            <div className='slide-anim-down'></div>                
+
             <div className='characters halftone-bg'>
-                        <CharacterCard  
+                        <CharacterCard
                         description='The 1st member of the Six Stars' 
                         member='01' 
                         name='Kuno' 
